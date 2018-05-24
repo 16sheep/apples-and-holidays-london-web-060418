@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each {|key, values|
     print "#{key.capitalize}:\n"
     key.each {|holiday, supplies|
-      print " #{holiday.capitalize}: #{supplies}\n"
+      print holiday
     }
   }
   
