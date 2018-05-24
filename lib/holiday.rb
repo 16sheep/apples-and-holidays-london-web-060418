@@ -66,8 +66,8 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |key, values|
     print "#{key.capitalize}:\n"
     key.each do |key, values|
-      print " #{key.keys.to_s}:\n"
-      print "   #{values.values.to_s}:\n"
+      print " #{key.keys}:\n"
+      print "   #{values.values}:\n"
     end
   end
   
