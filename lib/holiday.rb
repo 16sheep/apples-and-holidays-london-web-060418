@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
     print key
     for  value in values
       print value
+    end
   } 
   
 end
