@@ -69,8 +69,9 @@ def all_supplies_in_holidays(holiday_hash)
       print " #{holiday.capitalize}: #{supplies}\n"
     }
     end
+  }
   end
-  } 
+  
   
 end
 
