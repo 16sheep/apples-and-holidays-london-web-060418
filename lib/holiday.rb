@@ -30,8 +30,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       value.push(supply)
     end
   end
-  #remember to return your newly altered contacts hash!
-  contacts
 end
 
 
